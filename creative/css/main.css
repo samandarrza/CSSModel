@@ -1,0 +1,220 @@
+
+#header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+nav{
+    position: fixed;
+    z-index: 9;
+}
+ul.menu li{
+    display: inline-block;
+    margin-left: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.menu{
+   color: silver;
+   font-weight: bold;
+}
+.menu:hover{
+    color: white;
+}
+
+
+.nav{
+    padding: 20px 20px;
+}
+header h1{
+    padding: 370px 0 15px 0;
+    font-size: 48px;
+    margin: auto;
+    text-align: center;
+}
+header p{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+}
+.hr-red {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.hr-white {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    opacity: 1;
+}
+.btn{
+    margin: 1.5rem;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 250ms;
+}
+.btnheader{
+    background-color: #f4623a;
+}
+.btncontact{
+    background-color: #f4623a;
+    padding: 20px 300px;
+}
+.btncontact:hover{
+    background-color: #c15131;
+}
+.btnheader:hover{
+    background-color: #c15131;
+}
+
+#about{
+    background-color: #f4623a;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+.btnabout{
+    background-color: white;
+}
+#services{
+    background-position: center;
+    width: 1120px;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+}
+#portfolio{
+    background-position: center;
+    width: 90%;
+    height: 62.2vh;
+    text-align: center;
+    margin: auto;
+}
+#free{
+    background-position: center;
+    width: 100%;
+    background-color: #343a40;
+    height: 35vh;
+    text-align: center;
+    margin: auto;
+}
+#contact{
+    background-position: center;
+    width: 40%;
+    height: 90vh;
+    text-align: center;
+    margin: auto;
+}
+#footer{
+    background-position: center;
+    background-color: #e9ecef;
+    color: gray;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.image{
+    width: 33%;
+    height: 300px;
+    margin: 0.03%;
+    background-size: 100%;
+    text-align: center;
+    float: left;
+}
+.image-color{
+    background-color: #c15131;
+    width: 100%;
+    height: 100%;
+    line-height: 300px;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+}
+.image:hover .image-color{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.item{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+.item-title{
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 1rem;
+}
+.item-text{
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.item i{
+    font-size: 50px;
+    color: #f4623a;
+}
+#contact i{
+    color: gray;
+    font-size: 40px;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.resolution{
+    width: 1120px;
+    margin: auto;
+}
+.navresolution{
+    width: 100%;
+    padding: 30px 300px 30px 300px;
+    margin: auto;
+    background-color: #17191b;
+    opacity: 0.75;
+}
+.resolution-header{
+    width: 640px;
+    margin: auto;
+}
+.white{
+    color: white;
+}
+.padding{
+    padding: 100px 0 15px 0;
+}
+.px24{
+    font-size: 24px;
+}
+.px32{
+    font-size: 32px;
+}
+
+.input{
+    width: 85%;
+    background-color: rgb(235, 231, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 50px;
+    border: #f4623a;
+}
